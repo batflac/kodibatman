@@ -1,0 +1,14 @@
+<settings>
+<category label="Configurar conexión">
+     <setting id="lehekylg" type="text" label="Host" default="http://jomyson.com"/>
+     <setting id="kasutajanimi" type="text" label="Usuario" default=""/>
+     <setting id="salasona" type="text" option="writeable,hidden" label="Contraseña" default=""/>
+     <setting id="pordinumber" type="text" label="Puerto" default="8000"/>
+</category>
+<category label="Otras configuraciones">
+	 <setting id="uuendused" type="bool" label="Actualizaciones automaticas"value="false"/>
+	 <setting id="improve" type="bool" label="Configuraciones avanzadas"value="false"/>
+	 <setting id="vanemalukk" type="bool" label="Bloqueo parental"value="true"/>
+	 <setting id="vanemakood" type="text" option="writeable,hidden" label="Codigo de bloqueo" default="1234"/>
+</category>
+</settings>
